@@ -1,0 +1,50 @@
+/**
+ * Current Stock Report CSS
+ */
+
+.stock-status-available {
+    background-color: rgba(92, 184, 92, 0.2);
+    color: #3c763d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.stock-status-warning {
+    background-color: rgba(240, 173, 78, 0.2);
+    color: #8a6d3b;
+    font-weight: 600;
+    text-align: center;
+}
+
+.stock-status-critical {
+    background-color: rgba(217, 83, 79, 0.2);
+    color: #a94442;
+    font-weight: 600;
+    text-align: center;
+}
+
+.panel-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > td {
+    border: 1px solid #ddd;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
