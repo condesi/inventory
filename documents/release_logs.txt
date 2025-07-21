@@ -1,0 +1,26 @@
+21/07/2025:
+-Feature: Implemented batch tracking system with manufacturing and expiry dates
+-Feature: Added quality control system for goods receipt
+-Feature: Added warehouse locations management
+-Feature: Implemented unit conversion system
+-Feature: Enhanced stock and expiry alerts
+-UI: Updated interface with new menu options
+-Lang: Updated Spanish translations
+-Perf: Optimized inventory queries
+-Track: Improved stock movement traceability
+
+21_07_2025:
+- [Mejora] Refactorización completa del sistema de configuraciones
+- [Eliminado] Archivos obsoletos de configuración de aprobaciones
+- [Mejora] Consolidación de estilos CSS en un único archivo
+- [Mejora] Sistema de JavaScript modular para configuraciones
+- [Actualizado] Rutas y referencias a configuraciones
+- [Añadido] Nuevas opciones de configuración para control de calidad y seguimiento de lotes
+
+26_03_2024:
+-Items: Additional import, Excel export for field Tax2
+-Items: Fix bugs Import item color, Inventory min
+01_04_2024:
+-Permission: Add Own view permission for features:Inventory receiving voucher, Inventory delivery voucher, Packing Lists, Internal delivery note, Loss & adjustment, Receiving-Exporting return order.
+08_04_2024:
+-Inventory History: Update inventory balance at the beginning of the period when Inventory delivery voucher is created from Invoice
